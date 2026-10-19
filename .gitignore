@@ -11,3 +11,10 @@ coverage/
 .venv/
 venv/
 __pycache__/
+
+# Backup files
+*.bak
+*.bak2
+
+# Nested duplicate project
+/interview-ai-yt-main/
