@@ -1,4 +1,4 @@
-
+﻿
 import React, { useState } from "react";
 import { useNavigate, Link } from "react-router";
 import "../auth.form.scss";
@@ -53,7 +53,7 @@ const Login = () => {
                             onChange={(e) =>
                                 setEmail(e.target.value)
                             }
-                            autoComplete="email"
+                            autoComplete="username"
                             required
                         />
                     </div>
@@ -122,3 +122,4 @@ const Login = () => {
 };
 
 export default Login;
+
